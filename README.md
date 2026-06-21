@@ -1,8 +1,8 @@
-Solution Intelligente de Gestion de Stocks
+📦 Solution Intelligente de Gestion de Stocks
 
 Ce projet a été réalisé dans le cadre du Master Informatique - Big Data (Université Paris 8) pour le module Projet Innovant 1 (DNF1ED12) et Conception, Spécification, Test (DNF2ED12).
 
-Description
+📝 Description
 
 Cette application est une solution de logistique intelligente permettant de :
 
@@ -14,7 +14,7 @@ Générer des recommandations de commande automatiques.
 
 Visualiser les résultats via une interface interactive.
 
-Stack Technique
+🛠️ Stack Technique
 
 Langage : Python 3.9
 
@@ -26,7 +26,7 @@ Conteneurisation : Docker / Docker Compose
 
 Qualité : PyTest (Tests unitaires)
 
-Installation & Lancement
+🚀 Installation & Lancement
 
 Prérequis : Avoir Docker et Docker Compose installés sur votre machine.
 
@@ -41,14 +41,14 @@ docker-compose up --build
 
 Une fois le conteneur lancé, accédez à l'application dans votre navigateur à l'adresse suivante : http://localhost:8501
 
-Tests & Validation
+🧪 Tests & Validation
 
 Le projet inclut une suite de tests unitaires pour valider la logique métier. Pour exécuter les tests au sein du conteneur, utilisez la commande :
 
 docker-compose run gestion_stock pytest test_app.py
 
 
-Contextes Académiques
+🎓 Contextes Académiques
 
 DNF1ED12 (Projet tuteuré) : Développement de la solution et mise en place de la stack technique.
 
